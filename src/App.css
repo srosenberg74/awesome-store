@@ -62,88 +62,88 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  animation: slide-in 0.5s 1 linear, bg-main 8s infinite;
+  animation: slide-in 0.5s 1 linear;
 }
 
 .pc {
   display: flex;
-position: absolute;
-width: calc(100vw/5);
-height: 300px;
-justify-content: center;
-align-items: center;
+  position: absolute;
+  width: calc(100vw / 5);
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 .pc-inner-1 {
   flex-grow: 1;
   background-color: darkgreen;
-  animation: expand 4s infinite 0.5s;
+  animation: expand1 4s infinite 0.5s;
   border-radius: 90px;
   height: 320px;
-  width: calc(100vw/5);
+  width: calc(100vw / 5);
 }
 
 .pc-inner-2 {
   flex-grow: 1;
   background-color: rgb(236, 138, 10);
-  animation: expand 4s infinite 1s;
+  animation: expand2 4s infinite 1s;
   border-radius: 90px;
   height: 320px;
-  width: calc(100vw/5);
+  width: calc(100vw / 5);
 }
 
 .pc-inner-3 {
   flex-grow: 1;
   background-color: rgb(250, 43, 233);
-  animation: expand 4s infinite 1.5s;
+  animation: expand3 4s infinite 1.5s;
   border-radius: 90px;
   height: 320px;
-  width: calc(100vw/5);
+  width: calc(100vw / 5);
 }
 
 .pc-inner-4 {
   flex-grow: 1;
   background-color: rgb(6, 46, 179);
-  animation: expand 4s infinite 2s;
+  animation: expand4 4s infinite 2s;
   border-radius: 90px;
   height: 320px;
-  width: calc(100vw/5);
+  width: calc(100vw / 5);
 }
 
 .pc-inner-5 {
   flex-grow: 1;
   background-color: rgb(250, 247, 70);
-  animation: expand 4s infinite 2.5s;
+  animation: expand5 4s infinite 2.5s;
   border-radius: 90px;
   height: 320px;
-  width: calc(100vw/5);
+  width: calc(100vw / 5);
 }
 
 .pc-inner-6 {
   flex-grow: 1;
   background-color: rgb(248, 81, 52);
-  animation: expand 4s infinite 3s;
+  animation: expand6 4s infinite 3s;
   border-radius: 90px;
   height: 320px;
-  width: calc(100vw/5);
+  width: calc(100vw / 5);
 }
 
 .pc-inner-7 {
   flex-grow: 1;
   background-color: rgb(53, 1, 121);
-  animation: expand 4s infinite 3.5s;
+  animation: expand7 4s infinite 3.5s;
   border-radius: 90px;
   height: 320px;
-  width: calc(100vw/5);
+  width: calc(100vw / 5);
 }
 
 .pc-inner-8 {
   flex-grow: 1;
   background-color: rgb(100, 53, 0);
-  animation: expand 4s infinite;
+  animation: expand8 4s infinite;
   border-radius: 90px;
   height: 320px;
-  width: calc(100vw/5);
+  width: calc(100vw / 5);
 }
 
 .img-wrapper {
@@ -251,7 +251,70 @@ align-items: center;
   }
 }
 
-@keyframes expand {
+@keyframes expand1 {
+  from {
+    transform: scale(0) rotate(0deg);
+  }
+  to {
+    transform: scale(1.02) rotate(360deg);
+  }
+}
+
+@keyframes expand2 {
+  from {
+    transform: scale(0) rotate(0deg);
+  }
+  to {
+    transform: scale(1.02) rotate(360deg);
+  }
+}
+
+@keyframes expand3 {
+  from {
+    transform: scale(0) rotate(0deg);
+  }
+  to {
+    transform: scale(1.02) rotate(360deg);
+  }
+}
+
+@keyframes expand4 {
+  from {
+    transform: scale(0) rotate(0deg);
+  }
+  to {
+    transform: scale(1.02) rotate(360deg);
+  }
+}
+
+@keyframes expand5 {
+  from {
+    transform: scale(0) rotate(0deg);
+  }
+  to {
+    transform: scale(1.02) rotate(360deg);
+  }
+}
+
+@keyframes expand6 {
+  from {
+    transform: scale(0) rotate(0deg);
+  }
+  to {
+    transform: scale(1.02) rotate(360deg);
+  }
+}
+
+@keyframes expand7 {
+  from {
+    transform: scale(0) rotate(0deg);
+  }
+  to {
+    transform: scale(1.02) rotate(360deg);
+  }
+}
+
+@keyframes expand8 {
   from {
     transform: scale(0) rotate(0deg);
   }
